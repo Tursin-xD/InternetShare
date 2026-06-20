@@ -14,7 +14,7 @@ rl.question('Enter your name to start sharing internet: ', (friendName) => {
     const cleanName = friendName.trim();
     
     // Формируем уникальную ссылку подключения с его именем
-    const RENDER_WS_URL = `wss://://onrender.com{cleanName}`; 
+    const RENDER_WS_URL = `wss://internetshare.onrender.com/`; 
     
     console.log(`\n[System] Connecting as: ${cleanName}...`);
     connect(RENDER_WS_URL);
