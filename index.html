@@ -1,0 +1,20 @@
+<body style="background:#0f0f1a; color:#fff; font-family:sans-serif; text-align:center; padding:50px;">
+    <h1>P2P Cloud Proxy Web Share 🌐</h1>
+    <p>Your current website URL is hosted on Render.</p>
+    
+    <form action="/browse" method="get" style="margin-top: 30px;">
+        <div style="margin-bottom: 20px;">
+            <label style="display:block; margin-bottom:10px;">1. Choose which friend to get internet from:</label>
+            <select name="friend" style="padding:10px; width:420px; border-radius:5px; background:#1e1e2f; color:#fff; border:1px solid #4a90e2;" required>
+                <!-- Здесь будут автоматически появляться имена ваших друзей -->
+            </select>
+        </div>
+
+        <div>
+            <label style="display:block; margin-bottom:10px;">2. Enter the website you want to open:</label>
+            <input type="text" name="url" placeholder="http://example.com" style="padding:10px; width:400px; border-radius:5px; border:none;" required>
+        </div>
+        
+        <button type="submit" style="margin-top:20px; padding:12px 30px; background:#4a90e2; color:#fff; border:none; border-radius:5px; cursor:pointer; font-weight:bold;">Browse via Selected Friend</button>
+    </form>
+</body>
